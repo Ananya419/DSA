@@ -46,4 +46,35 @@ def items(n):
 
 items(8)
 
-#
+# Space complexity
+
+"""
+
+# Different terms for input - Add vs Multiply
+
+def items(n):
+    for i in range(n):
+        print(i)
+
+    for j in range(n):
+        print(j)
+
+items(4)
+
+# it has O(n) time complexity because O(n) + O(n) = O(2n) we will drop the constant value so it has  O(n) time complexity
+def items(a,b):
+    for i in range(a):
+        print(i)
+
+    for j in range(b):
+        print(j)
+# It has O(a+b)
+
+
+def items(a,b):
+    for i in range (a):
+        for j in range (b):
+            print(i,j)
+#It has O(a*b) time complexity because we are doing a for each time of doing b
+
+"""
