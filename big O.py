@@ -32,3 +32,16 @@ def items(n):
             print(i,j)
 
 items(8)
+
+# if we have 3 value which is i,j,k then also the time complexity will be o(n^2)
+
+
+# drop non dominant terms
+def items(n):
+    for i in range (n):
+        for j in range (n):
+            print(i,j)
+    for k in range (n):
+        print(k)
+
+items(8)
