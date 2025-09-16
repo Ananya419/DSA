@@ -47,7 +47,7 @@ arr1 = array('i', [1,2,3,4,5,6])
 arr2 = array('d',[1.3,1.5,1.6])
 
 def traverseArray(array):
-    for i in array:
-        print(i)
+    for i in array: #--------->O(n)   
+        print(i)    #--------->O(1)  both after combining became O(n) time complexity and O(1) space complexity
 
 traverseArray(arr1)
