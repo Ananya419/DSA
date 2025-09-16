@@ -15,3 +15,4 @@ print(np_array)
 
 np_array1 = np.array([1,2,3,4,5]) # ------------>O(N)(SPACE & TIME COMPLEXITY)
 print(np_array1)                                # as the no. pf elements is increases the time to store its element will also increase proportionally
+
