@@ -14,5 +14,28 @@ np_array = np.array([],dtype=int) #------------> O(1)(SPACE & TIME COMPLEXITY)
 print(np_array)
 
 np_array1 = np.array([1,2,3,4,5]) # ------------>O(N)(SPACE & TIME COMPLEXITY)
-print(np_array1)                                # as the no. pf elements is increases the time to store its element will also increase proportionally
+print(np_array1)                                # as the no. of elements is increases the time to store its element will also increase proportionally
 
+
+
+
+
+# Inserting an Array 
+my_array1 = array.array('i',[1,2,3,4,5])   
+print(my_array1)
+# for adding a new element at the begning of an arrray
+my_array1.insert(0,6)
+print(my_array1)
+
+# for adding an element at the mid of the array
+my_array1 = array.array('i',[1,2,3,4,5])   
+print(my_array1)
+my_array1.insert(3,6)
+print(my_array1)
+
+
+# for adding an element at the end of the array
+my_array1 = array.array('i',[1,2,3,4,5])   
+print(my_array1)
+my_array1.insert(5,6)
+print(my_array1)
