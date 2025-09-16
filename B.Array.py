@@ -1,5 +1,5 @@
 #  Array:
-# Creating an Array
+# CREATING  AN ARRAY
 
 import array
 
@@ -20,7 +20,7 @@ print(np_array1)                                # as the no. of elements is incr
 
 
 
-# Inserting an Array 
+# INSERTING AN ARRAY
 my_array1 = array.array('i',[1,2,3,4,5])   
 print(my_array1)
 # for adding a new element at the begning of an arrray
@@ -39,3 +39,15 @@ my_array1 = array.array('i',[1,2,3,4,5])
 print(my_array1)
 my_array1.insert(5,6)
 print(my_array1)
+
+
+# ARRAY TRAVERSAL
+from array import *
+arr1 = array('i', [1,2,3,4,5,6])
+arr2 = array('d',[1.3,1.5,1.6])
+
+def traverseArray(array):
+    for i in array:
+        print(i)
+
+traverseArray(arr1)
