@@ -51,3 +51,4 @@ def traverseArray(array):
         print(i)    #--------->O(1)  both after combining became O(n) time complexity and O(1) space complexity
 
 traverseArray(arr1)
+traverseArray(arr2)
