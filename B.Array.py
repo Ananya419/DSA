@@ -58,11 +58,24 @@ traverseArray(arr2)
 from array import *
 arr1 = array('i', [1,2,3,4,5,6])
 def accessElement(array, index):
-    if index >= len(array):
-        print('There is not any element in this index')
+    if index >= len(array):   #----------->O(1)
+        print('There is not any element in this index')  # ---->O(1)
     else:
-        print(array[index])    
+        print(array[index]) # ------>O(1)   
+        # it means it has O(1) time complexity
 
 accessElement(arr1, 1)
 accessElement(arr1, 8)
 accessElement(arr1, 6)
+
+
+# SEARCHING AN ELEMENT
+from array import *
+arr1 = array('i', [1,2,3,4,5,6])
+
+def linear_search(arr,target):
+    for i in range(len(arr)):
+        if arr[i] == target:
+            return i
+
+print(linear_search(my_array1,8))
