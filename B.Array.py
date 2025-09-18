@@ -80,3 +80,14 @@ def linear_search(arr,target):
     return -1
 
 print(linear_search(my_array1,8))
+
+
+# DELETING AN ELEMENT FROM ARRAY 
+from array import *
+arr1 = array('i', [1,2,3,4,5,6])
+
+arr1.remove(1)
+print(arr1)
+arr1.remove(6)
+print(arr1)
+
