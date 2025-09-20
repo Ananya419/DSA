@@ -91,3 +91,13 @@ print(arr1)
 arr1.remove(4)
 print(arr1)
 
+
+from array import *
+
+# 1). CREATE AN ARRAY AND TRAVERSE
+
+my_array = array('i',[1,2,3,4,5,])
+
+for  i in my_array:
+    print(i)
+
