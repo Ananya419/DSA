@@ -101,3 +101,7 @@ my_array = array('i',[1,2,3,4,5,])
 for  i in my_array:
     print(i)
 
+
+# 2). Access individual elements through indexes
+print("step 2")
+print(my_array[3])
